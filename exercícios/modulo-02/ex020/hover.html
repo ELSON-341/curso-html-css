@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover em CSS</title>
+    <style>
+        body {
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            font-family: Arial, Verdana, sans-serif;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover {
+            color: red;
+        }
+        div:hover > p {
+            display: block;
+            background-color: red;
+            color: white;
+            font-style: italic;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Hover</h1>
+    <p>passe o mause sobre o texto abaixo.</p>
+    <div>
+        passe o mause aqui
+        <p>TEXTO ESCONDIDO...</p>
+    </div>
+    <p>fim do exemplo...</p>
+    &gt;
+    &lt;
+</body>
+</html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias no HTML5</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens Dinâmica</h1>
+    <p>Tente abri uma imagem em despositivo diferente.</p>
+    <picture>
+        <source media="(max-width: 728px)" srcset="imagens\foto-p.png" type="image/png">
+        <source media="(max-width: 1028px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem com g">
+    </picture>
+    <h1>Trabalhador com Áudio</h1>
+    <p>Reproduzindo áudio no HTML5.</p>
+       <audio src="midias/Funk Down.mp3" controls autoplay></audio>
+    </audio>
+    <h1>Teste de reprodução com áudio</h1>
+    <audio preload="auto" controls autoplay>
+        <source src="midias/Funk Down.mp3" type="audio/mpeg">
+    </audio>
+    <h1>Reproduzindo Vídios</h1>
+    <video src="midias/github.mp4" preload="metadata" width="600px" poster="imagens/foto-m.png" controls></video>
+</body>
+</html>

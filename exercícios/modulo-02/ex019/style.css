@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+body {
+    background-color: hsl(120, 70%, 77%);
+    font-family: Arial, verdana, serif;
+}
+h1#principal{
+    background-color: green;
+    color: white;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3em;
+}
+p {
+    text-align: justify;
+    text-indent: 20px;
+}
+.basico {
+    color: green;
+}
+.intermediario {
+color: rgb(148, 148, 12);
+}
+.avançado {
+    color: red;
+}
+.destaque {
+    background-color: rgba(196, 196, 3, 0.692);
+}
+.letra {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2em;
+    font-family: Helvetica, serif;
+}
