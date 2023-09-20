@@ -7,84 +7,49 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 0;
-    box-sizing: border-box;
+}
+html, body {
+    background-color: darkgray;
+    min-height: 100vh;
 }
 :root {
     --font-01: 'Passion One', cursive;
     --font-02: 'Sriracha', Arial, sans-serif;
 }
-html, body {
-    font-family: Arial, Helvetica, sans-serif;
-    min-height: 100vh;
-}
 header {
     background-color: black;
     color: white;
     text-align: center;
-    padding: 3em;
 }
 header > h1 {
-    padding: 10px;
+    padding-top: 50px;
     font-variant: small-caps;
-    font-size: 3.7em;
-    font-family:var(--font-01);
-    font-weight: 700;
+
 }
-section.normal {
-    background-color:white;
-    padding: 10vh 20px;
+header > p {
+    padding-bottom: 50px;
 }
-.normal p {
-    font-family: var(--font-02);
-    font-size: 5vh;
-    line-height: 2em;
-    
-}
-.imagem {
-    display: flex;
-    height: 75vh;
-    padding-left: 20px;
-    align-items: center;
-    background-color: black;
+header a, footer a{
     color: white;
-    font-family: var(--font-02);
-}
-.imagem > p {
-    font-size: 4.5vh;
-    line-height: 1.5em;
-    padding: 5px;
-    background-color: rgba(0, 0, 0, 0.493);
-} 
-#img-01 {
-    background-image: url(../imagens/joaninha-1000.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-
-}
-
-#img-02 {
-    background-image: url(../imagens/papel-1000.jpeg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-}
-header a, footer a {
     text-decoration: none;
-    color: white;
     font-weight: bold;
 }
 header a:hover, footer a:hover {
-    color: gray;
     text-decoration: underline;
+}
+section.normal{
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(0, 0, 0);
+}
+select.imagem > p {
+    background-color: black;
 }
 footer {
     background-color: black;
     color: white;
-    font-weight: lighter;
     text-align: center;
     padding: 10px;
 }
