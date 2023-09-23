@@ -20,8 +20,16 @@
             color: white;
         }
         thead {
-            background-color: darkgray;
+            background-color: rgb(104, 98, 98);
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: rgb(104, 98, 98);
+        }
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
         }
         td, th {
             border: 1px solid black;
@@ -40,8 +48,8 @@
         <caption>População das Unidades Fedarativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 95px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -152,11 +160,15 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Hbitantes</th>
+                <th scope="row">Total de Hbitantes</th>
                 <td  class="num"><strong>203 067 512</strong></td>
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam alias quae ipsa ab iste aut enim perspiciatis sequi, ad facere, fugiat harum consequuntur, ratione eaque vitae saepe tempora accusamus quo!</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore impedit tempora nostrum, qui minima dolorem modi sint magnam? Delectus, excepturi aliquid impedit sit sunt quos amet dicta fugiat similique quam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. In unde blanditiis delectus, minus dolor quibusdam aut alias eveniet labore dicta. Sunt molestiae placeat mollitia maiores nobis quod doloremque laboriosam accusamus.</p>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, incidunt autem deserunt quod ea nemo, soluta assumenda ut facilis dolorem similique? Eos, numquam. Maiores, nobis quae aut odio doloremque cum! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet ea alias earum minima itaque neque nisi sequi, veritatis sunt reiciendis dolore vitae ullam sint. Ea quibusdam voluptatem quidem consequuntur impedit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. At quia hic dolores quo rem aliquid voluptate quod culpa eum minima rerum quas amet nulla, autem obcaecati possimus non accusamus velit.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus porro fugiat fugit. Repudiandae aliquam eum voluptatibus ducimus nostrum, ullam ratione facilis deserunt corrupti! Consequatur culpa ex natus quo nesciunt quasi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore optio provident fuga accusamus aspernatur veniam iusto molestias excepturi neque distinctio ab atque maiores velit, cumque quis. Sed quo illo deserunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque officia quaerat, laudantium molestias doloremque quidem fuga, nemo aut ad illo esse velit deserunt voluptate, magnam aliquam porro possimus omnis magni?</p>
 <body>
     
 </body>
