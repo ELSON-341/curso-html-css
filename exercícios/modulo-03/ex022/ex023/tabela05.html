@@ -3,9 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+        col.cnome {
+            background-color: chartreuse;
+        }
+        col.cgrupo {
+            background-color: gray;
+        }
+        col.csexo {
+            background-color: blue;
+        }
+        
+    </style>
 </head>
 <body>
-    
+    <h1>Exercício com Tabelas</h1>
+    <table>
+        <colgroup>
+            <col class="cnome" span="2">
+            <col class="cgrupo">
+            <col class="csexo"> 
+        </colgroup>
+        <tr>
+            <th>Nome</th>
+            <th>Sexo</th>
+            <th>Profissão</th>
+            <th>idade</th>
+        </tr>
+        <tr>
+            <td>Ana maria</td>
+            <td>F</td>
+            <td>Professora</td>
+            <td>0</td>
+        </tr>
+        <tr>
+            <td>Leonardo</td>
+            <td>M</td>
+            <td>Programador</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>André</td>
+            <td>M</td>
+            <td>Médico</td>
+            <td>2</td>
+        </tr>
+        <tr>
+            <td>Fernanda</td>
+            <td>F</td>
+            <td>Secretária</td>
+            <td>3</td>
+        </tr>
+        
+    </table>
 </body>
 </html>
