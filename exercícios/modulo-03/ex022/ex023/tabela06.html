@@ -1,59 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas Grandis</title>
+    <title>Tabelas</title>
     <style>
         body {
             font-family: Arial, Helvetica, sans-serif;
         }
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding-bottom: 10px;
+        }
         table {
-            width: 400px;
-            border: 2px solid black;
             border-collapse: collapse;
         }
-        caption {
-            padding: 10px;
-            font-size: 1.2em;
-            background-color: black;
-            color: white;
-        }
-        thead {
-            background-color: rgb(104, 98, 98);
-            color: white;
-        }
-        thead > tr > th {
-            position: sticky;
-            top: -1px;
-            background-color: rgb(104, 98, 98);
-        }
-        tbody > tr:nth-child(even) {
-            background-color: lightgray;
-        }
-        td, th {
+        th, td {
             border: 1px solid black;
-            padding: 5px;
-        }
-        td.num {
-            text-align: right;
-        }
-        tfoot {
-            background-color: rgb(109, 102, 102);
-            color: white;
-        }
-        div.conteine {
-            overflow-x: auto;
+            padding: 10px;;
         }
     </style>
 </head>
-    <div id="canteine">
+<body>
+    <h1>Tabelas Responsiva</h1>
+    <div id="conteine">
         <table>
             <caption>População das Unidades Fedarativas</caption>
             <thead>
                 <tr>
                     <th scope="col">Estado</th>
-                    <th scope="col" style="width: 95px;">População</th>
+                    <th scope="col">População</th>
                 </tr>
             </thead>
             <tbody>
@@ -170,7 +147,5 @@
             </tfoot>
         </table>
     </div>
-<body>
-    
 </body>
 </html>
