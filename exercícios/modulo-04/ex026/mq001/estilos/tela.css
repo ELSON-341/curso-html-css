@@ -19,6 +19,10 @@ header > h1 {
 menu {
     background-color: rgb(114, 109, 109);
 }
+main ul {
+    list-style-position: inside;
+    list-style-type: none;
+}
 header li {
     display: inline-block;
     background-color: rgb(56, 54, 54);
