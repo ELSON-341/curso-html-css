@@ -40,7 +40,7 @@ menu > ul > li > a:hover {
     color: black;
 }
 main {
-    width: 90vh;
+    width: 90vw;
     background-color: white;
     margin: auto;
     padding: 10px;
