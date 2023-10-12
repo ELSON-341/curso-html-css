@@ -5,11 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Media Query</title>
     <link rel="stylesheet" href="estilo/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Meu Site</h1>
-        <menu>
+        <i class="material-icons" onclick="clickMenu()">view_headline</i>
+        <menu id="itans">
             <ul>
                 <li><a hraf="#">Opção 1</a></li>
                 <li><a hraf="#">Opção 2</a></li>
@@ -29,5 +31,15 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio libero velit blanditiis dolores voluptate repudiandae repellendus modi labore iste vitae non dolor illo iure quo, eius doloribus, tempore tenetur necessitatibus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae dolorum ipsum ratione ipsa tenetur magni exercitationem nemo! Nisi error, qui esse corrupti obcaecati eum? Ullam ex quos eligendi explicabo temporibus!</p>
         </article>
     </main>
+    <script>
+        function clickMenu() {
+            if(itans.style.display == 'block'){
+                itans.style.display = 'none'
+            }
+            else{
+                itans.style.display = 'block'
+            }
+        }
+    </script>
 </body>
 </html>
