@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        body {
+            height: 100vh;
+            width: 100pvw;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        main {
+            display: flex;
+            flex-wrap: wrap;
+            align-content: stretch;
+            height: 100vh;
+            background-color: lightgray;
+        }
+        div.contener {
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+            text-align: center;
+
+            font-size: 2em;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Testes com flex-direction</h1>
+    <main>
+        <div class="contener">1</div>
+        <div class="contener">2</div>
+        <div class="contener">3</div>
+        <div class="contener">4</div>
+        <div class="contener">5</div>
+        <div class="contener">6</div>
+        <div class="contener">7</div>
+        <div class="contener">8</div>
+        <div class="contener">9</div>
+        <div class="contener">10</div>
+    </main>
+</body>
+</html>
