@@ -13,34 +13,31 @@
         main {
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
             align-content: stretch;
             height: 100vh;
             background-color: lightgray;
         }
-        div.contener {
+        div {
             width: 100px;
             height: 100px;
             background-color: aqua;
             text-align: center;
 
             font-size: 2em;
-            margin: 5px;
+        }
+        div#cont02:nth-last-of-type(2){
+            flex-shrink: 3;
         }
     </style>
 </head>
 <body>
     <h1>Testes com flex-direction</h1>
     <main>
-        <div class="contener">1</div>
-        <div class="contener">2</div>
-        <div class="contener">3</div>
-        <div class="contener">4</div>
-        <div class="contener">5</div>
-        <div class="contener">6</div>
-        <div class="contener">7</div>
-        <div class="contener">8</div>
-        <div class="contener">9</div>
-        <div class="contener">10</div>
+        <div id="cont01" class="contener">1</div>
+        <div id="cont02" class="contener">2</div>
+        <div id="cont03" class="contener">3</div>
+        <div id="cont04" class="contener">4</div>
     </main>
 </body>
 </html>
