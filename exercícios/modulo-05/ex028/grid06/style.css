@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+.container {
+    display: grid;
+    grid-template: repeat(4, 100px) / repeat(4, 1fr);
+}
+
+.box1 {
+    background-color: rgb(248, 77, 77);
+    grid-row: 1 / span 1;
+    grid-area: 1 / 1 / 2/ 5;
+}
+
+.box2 {
+    background-color: lightgreen;
+    grid-row: 2 / span 2;
+    grid-column: 1 / sopan 2;
+    grid-area: 2 / 1 / 4 / 3;
+}
+
+.box3 {
+    background-color: lightblue;
+    grid-row: 2 / span 2;
+    grid-column: 3 / span 2;
+    grid-area: 2 / 3 / 4 / 5;
+}
