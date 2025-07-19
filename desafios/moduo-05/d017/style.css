@@ -10,10 +10,8 @@ div.container {
     height: 100vh;
     display: grid;
     gap: 5px;
-    grid-template-rows: 70px 45px 400px 45px;
-    grid-template-columns: 500px 200px;
-    justify-content: center;
-    align-content: center;
+    grid-template-rows: 80px 40px 1fr 40px;
+    grid-template-columns: 1fr 150px;
 }
 
 header {
