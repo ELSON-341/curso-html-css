@@ -3,22 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flxible box</title>
+    <title>Flexible box module</title>
     <style>
         div.container {
-            display: flex;
-            height: 300px;
-            flex-direction: row;
-            justify-content: space-between;
-            align-items: center;
             background-color: lightsalmon;
+            display: flex;
+            height: 125px;
+            flex-flow: column wrap;
+            justify-content: space-around;
+            
         }
 
         div.item {
             background-color: lightskyblue;
             border: 1px solid black;
             text-align: center;
-            padding: 10px;
         }
     </style>
 </head>
