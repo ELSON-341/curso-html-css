@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Flxible box</title>
+    <title>Flexible box module</title>
     <style>
         div.container {
-            display: flex;
-            flex-direction: row;
             background-color: lightsalmon;
+            display: flex;
         }
 
         div.item {
@@ -21,21 +20,26 @@
         div#i1 {
             order: 0;
         }
+
         div#i2 {
             order: -2;
         }
         div#i3 {
-            order: 4;
-        }
-        div#i4 {
             order: 8;
         }
-        div#i5 {
-            order: 1;
+
+        div#i4 {
+            order: 2;
         }
-        div#i6 {
+
+        div#i5 {
             order: 0;
         }
+
+        div#i6 {
+            order: 9;
+        }
+
         div#i7 {
             order: -4;
         }
