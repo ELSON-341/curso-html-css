@@ -1,2 +1,18 @@
+header{
+    flex-flow: column wrap;
+}
 
+header > nav {
+    flex-flow: column wrap;
+    row-gap: 5px;
+}
 
+header > nav > a {
+    width: 90vw;
+    text-align: center;
+    padding: 10px;
+}
+
+header > h1 {
+    margin-bottom: 10px;
+}
