@@ -13,15 +13,33 @@ body {
 
 div.container {
     display: grid;
-    grid-template: 80px 40px 1fr 40px / 1fr 15%;
-    width: 100vw;
+    grid-template: 100px 50px 1fr 50px /
+    1fr 200px;
+    gap: 5px;
+    /* width: 100vw; */
     height: 100vh;
-}
+} 
 
 header {
     grid-area: 1 / 1 / 2 / span 2;
+    background-color: lightgreen;
+}
+
+menu {
+    grid-area: 2 / 1 / 3 / 3;
+    background-color: rgb(240, 226, 32);
 }
 
 main {
-    
+    background-color: rgb(38, 182, 207);
 }
+
+aside {
+    background-color: lightblue;
+}
+
+footer {
+    grid-area: 4 / 1 / -1 / -1;
+    background-color: rgb(223, 61, 33);
+}
+    
